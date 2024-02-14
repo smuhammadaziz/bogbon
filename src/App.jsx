@@ -9,6 +9,7 @@ import Home from './pages/home/home';
 import SelectRole from './components/selectrole/selectrole';
 import RegisterAsBogbon from './components/registerAsBogbon/register';
 import RegiterAsNihol from './components/registerAsNihol/register';
+import Login from './components/signin/login';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/signup' element={<SelectRole />} />
         <Route path='/signup/as/investor' element={<RegisterAsBogbon />} />
         <Route path='/signup/registration' element={<RegiterAsNihol />} />
+        <Route path='/login' element={<Login />} />
       </Routes>
     </div>
   );

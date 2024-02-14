@@ -1,0 +1,44 @@
+.login {
+  margin-top: 100px;
+}
+
+.login .registerbogbon__form {
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 15px;
+  border-top-color: #a7a7a7;
+  border-bottom-color: #a7a7a7;
+  border-right-color: #a7a7a7;
+  border-left-color: #a7a7a7;
+  padding-bottom: 50px;
+  transition: all 0.2s ease-in;
+}
+
+.login .registerbogbon__form:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-color: rgba(50, 50, 93, 0.25);
+}
+.registerbogbon__btn {
+  cursor: pointer;
+}
+
+.login input {
+  transition: all 0.2s ease;
+}
+
+.login input:empty {
+  background-color: #d9d9d9;
+}
+
+/* .login inout:valid {
+  background-color: #fff;
+} */
+
+/* .login input:not(:placeholder-shown) {
+  background-color: #a7a7a7;
+} */
+
+/* Show green borders when valid */
+.login input:valid {
+  background-color: #fff;
+}
