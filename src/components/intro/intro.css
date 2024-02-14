@@ -1,0 +1,32 @@
+.intro .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.mySwiper {
+  width: 500px;
+  border-radius: 20px;
+}
+.intro_box1 {
+  width: 550px;
+}
+
+.intro_box1 h2 {
+  font-size: 35px;
+  font-family: Rza, Rza-fallback, Georgia, serif;
+  text-align: left;
+  line-height: 45px;
+}
+
+.intro_box1 h2 span:first-child {
+  background-color: #50e2c3;
+}
+
+.intro_box1 h2 span:last-child {
+  background-color: #ff7547;
+}
+
+/* .intro_box1 h2 span:first-child */

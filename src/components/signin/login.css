@@ -30,15 +30,6 @@
   background-color: #d9d9d9;
 }
 
-/* .login inout:valid {
-  background-color: #fff;
-} */
-
-/* .login input:not(:placeholder-shown) {
-  background-color: #a7a7a7;
-} */
-
-/* Show green borders when valid */
 .login input:valid {
   background-color: #fff;
 }
