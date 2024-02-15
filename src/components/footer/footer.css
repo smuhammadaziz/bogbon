@@ -1,0 +1,133 @@
+.footer {
+  background-color: #f2f2f2;
+  margin-top: 100px;
+}
+
+.footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.footer__top__logo {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.footer__top__logo__logo {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.footer__top__logo p {
+  width: 400px;
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: 'PFDINSerif-Regular', Georgia, Times New Roman, Times, serif !important;
+  line-height: 27px;
+}
+
+.footer__top__logo p span:first-child {
+  background-color: #50e2c3;
+}
+
+.footer__top__logo p span:last-child {
+  background-color: #ff7547;
+}
+
+.footer__bottom {
+  display: block;
+  padding: 20px 0;
+  background-color: #fff;
+}
+
+.footer__bottom .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__bottom p {
+  color: #3f3f3f;
+  font-family: DIN Next LT W01 Regular, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial,
+    sans-serif;
+  font-size: 14px;
+}
+
+.footer__top__social__media ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footer__top__social__media ul li {
+  padding: 5px 9px;
+  padding-top: 8px;
+  border: 1px solid rgb(126, 126, 126);
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+
+.footer__top__social__media img {
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+
+.footer__top__social__media ul li:hover {
+  opacity: 0.5;
+}
+
+.footer__top__links {
+  /* border: 1px solid black; */
+  padding: 0 200px;
+  border: 1px solid;
+  border-top-color: #f2f2f2;
+  border-bottom-color: #f2f2f2;
+  border-right-color: rgb(206, 206, 206);
+  border-left-color: rgb(206, 206, 206);
+}
+
+.footer__top__links ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.footer__top__links__item {
+  text-decoration: none;
+  color: black;
+  font-family: DIN Next LT W01 Regular, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial,
+    sans-serif !important;
+  line-height: 18px;
+}
+
+.footer__top__links__item:hover {
+  text-decoration: underline;
+}
+
+.footer__top__links__item {
+  margin-top: 20px;
+}
+
+.footer__top__links__item:first-child {
+  margin-top: 0;
+}
+
+.footer__top__social__address p {
+  margin-top: 10px;
+}
+
+.footer__top__social__address p:first-child {
+  margin-top: 0;
+}
+
+.footer__top__social__address p:last-child {
+  margin-bottom: 20px;
+}

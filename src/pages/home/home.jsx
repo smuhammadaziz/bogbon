@@ -4,6 +4,7 @@ import './home.css';
 import Header from '../../components/header/header';
 import Intro from '../../components/intro/intro';
 import About from '../../components/about/about';
+import Footer from '../../components/footer/footer';
 
 function Home() {
   return (
@@ -16,6 +17,10 @@ function Home() {
         <Intro />
         <About />
       </section>
+
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
