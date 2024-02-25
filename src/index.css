@@ -17,3 +17,8 @@ body {
   padding: 0 20px;
   margin: 0 auto;
 }
+
+img {
+  display: block;
+  object-fit: cover;
+}

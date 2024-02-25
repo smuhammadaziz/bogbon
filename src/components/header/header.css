@@ -236,11 +236,11 @@
 
 .search__input {
   display: block;
-  width: 100%;
+  width: 1200px;
   margin: 0 auto;
   padding: 20px 5px;
   font-size: 30px;
-  border-color: #b5b5b5;
+  border-color: #dfdfdf;
   border-top-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;

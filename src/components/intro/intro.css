@@ -7,8 +7,8 @@
 }
 
 .mySwiper {
-  width: 500px;
-  border-radius: 20px;
+  width: 600px;
+  border-radius: 5px;
 }
 .intro_box1 {
   width: 550px;
@@ -18,7 +18,7 @@
   font-size: 35px;
   font-family: Rza, Rza-fallback, Georgia, serif;
   text-align: left;
-  line-height: 45px;
+  line-height: 50px;
 }
 
 .intro_box1 h2 span:first-child {

@@ -10,6 +10,11 @@ import downArrowImg from '../../assets/images/down.svg';
 import searchImg from '../../assets/images/search.svg';
 import calcelImg from '../../assets/images/cancel.svg';
 
+import logoImg from '../../assets/images/logo.svg';
+
+// Hamburger menu
+import { Turn as Hamburger } from 'hamburger-react';
+
 function Header() {
   const [open, setOpen] = useState(false);
   const [close, setClose] = useState(false);
@@ -18,12 +23,12 @@ function Header() {
       <div className='header'>
         <div className='container'>
           <div className='header_top'>
-            <div className='header_top__box'>
+            <div className='header_top__box header_top__box1'>
               <NavLink to='/' className='header_top__logo'>
-                <p>LOGO</p>
+                <img src={logoImg} alt='bogbon site logo' />
               </NavLink>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>Илм ўрганиш ҳар бир мусулмон учун фарздир.</p>
             </div>
 
             <div className='header_top__box'>

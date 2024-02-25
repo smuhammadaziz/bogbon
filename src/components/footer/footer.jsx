@@ -9,6 +9,8 @@ import InstaImg from '../../assets/images/insta.svg';
 import FacebookImg from '../../assets/images/facebook.svg';
 import YoutubeImg from '../../assets/images/youtube.svg';
 
+import logoImg from '../../assets/images/logo.svg';
+
 function Footer() {
   return (
     <div className='footer'>
@@ -16,7 +18,7 @@ function Footer() {
         <div className='footer__top'>
           <div className='footer__top__logo'>
             <NavLink to='/' className='footer__top__logo__logo'>
-              LOGO
+              <img src={logoImg} alt='bogbon main logo' />
             </NavLink>
             <p>
               Lorem ipsum, dolor sit amet <span>consectetur</span> adipisicing elit. Dolor
