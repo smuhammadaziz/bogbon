@@ -21,8 +21,8 @@ function Footer() {
               <img src={logoImg} alt='bogbon main logo' />
             </NavLink>
             <p>
-              Садақанинг афзали мусулмон кишининг <span>илм</span> ўрганиб, сўнг бошқа{' '}
-              мусулмон <span>биродарларига</span> ҳам ўргатишидир.
+              Sadaqaning afzali musulmon kishining <span>ilm</span> o‘rganib, so‘ng boshqa{' '}
+              musulmon <span>birodarlariga</span> ham o‘rgatishidir.
             </p>
           </div>
           <div className='footer__top__links'>
