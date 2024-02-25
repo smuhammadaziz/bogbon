@@ -22,14 +22,9 @@ function Intro() {
     <div className='intro'>
       <div className='container'>
         <div className='intro_box1'>
-          {/* <h2>
-            Lorem ipsum, dolor sit amet <span>consectetur</span> adipisicing elit. Soluta
-            esse doloribus tempore recusandae porro natus <span>voluptate</span>{' '}
-            asperiores ipsa praesentium aperiam.
-          </h2> */}
           <h2>
-            Садақанинг афзали мусулмон кишининг <span>илм</span> ўрганиб, сўнг бошқа{' '}
-            мусулмон <span>биродарларига</span> ҳам ўргатишидир.
+            Sadaqaning afzali musulmon kishining <span>ilm</span> o‘rganib, so‘ng boshqa{' '}
+            musulmon <span>birodarlariga</span> ham o‘rgatishidir.
           </h2>
         </div>
 

@@ -8,6 +8,7 @@ import Footer from '../../components/footer/footer';
 import News from '../../components/news/news';
 import Latest from '../../components/latest/latest';
 import Statistics from '../../components/statistics/stats';
+import Aim from '../../components/aim/aim';
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
 
       <section>
         <Intro />
+        <Aim />
         <News />
         <Statistics />
         <Latest />

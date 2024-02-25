@@ -1,0 +1,26 @@
+.aim {
+  background-color: #f2f2f2;
+  padding: 100px 0;
+}
+
+.aim h2 {
+  font-size: 45px;
+  margin-bottom: 50px;
+  font-family: Rza, Rza-fallback, Georgia, serif;
+}
+
+.aim__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aim__box p {
+  /* width: 400px; */
+  text-align: left;
+  margin-left: 50px;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.885);
+  font-family: Rza, Rza-fallback, Georgia, serif;
+  line-height: 40px;
+}

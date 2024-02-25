@@ -28,15 +28,15 @@ function Header() {
                 <img src={logoImg} alt='bogbon site logo' />
               </NavLink>
 
-              <p>Илм ўрганиш ҳар бир мусулмон учун фарздир.</p>
+              <p>Ilm o‘rganish har bir musulmon uchun farzdir.</p>
             </div>
 
             <div className='header_top__box'>
               <NavLink to='/login' className='header_top__login'>
-                <p>Login</p>
+                <p>Kirish</p>
               </NavLink>
               <NavLink to='/signup' className='header_top__signup'>
-                <p>Sign up</p>
+                <p>Ro'yhatdan o'tish</p>
               </NavLink>
             </div>
           </div>
