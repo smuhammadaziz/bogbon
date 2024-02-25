@@ -1,0 +1,32 @@
+.stats {
+  background-color: #f2f2f2;
+  padding: 70px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.stats__box {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.stats__box__card {
+  border: 2px solid rgb(151, 151, 151);
+  margin: 0 30px;
+  padding: 20px 50px;
+}
+
+.stats__box__card h3 {
+  font-size: 50px;
+  font-family: DIN Next LT W01 Medium, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial, sans-serif;
+}
+
+.stats__box__card p {
+  font-family: DIN Next LT W01 Medium, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial, sans-serif;
+  color: #232323;
+}

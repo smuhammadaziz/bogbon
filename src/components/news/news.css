@@ -1,0 +1,56 @@
+.news {
+  margin: 100px 0;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.news__card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.news__card__card {
+  width: 500px;
+  margin: 35px 0;
+}
+
+.news__card__card__link {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-family: DIN Next LT W01 Regular, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial,
+    sans-serif;
+  font-weight: 450;
+  margin-top: 20px;
+}
+
+.news__card__card__link:hover {
+  opacity: 0.8;
+}
+
+.news__card__card__link img {
+  background-color: black;
+  padding: 7px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.news__card__card__link p {
+  margin-top: 3px;
+}
+
+.news__card__card h3 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.news__card__card p {
+  color: rgb(35, 35, 35);
+}
