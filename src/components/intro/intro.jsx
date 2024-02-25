@@ -50,13 +50,13 @@ function Intro() {
             className='mySwiper'
           >
             <SwiperSlide>
-              <img src={Img1} alt='helping people image' width='650' height='380' />
+              <img src={Img3} alt='helping people image' width='650' height='380' />
             </SwiperSlide>
             <SwiperSlide>
               <img src={Img2} alt='helping people image' width='650' height='380' />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Img3} alt='helping people image' width='650' height='380' />
+              <img src={Img1} alt='helping people image' width='650' height='380' />
             </SwiperSlide>
             <SwiperSlide>
               <img src={Img4} alt='helping people image' width='650' height='380' />

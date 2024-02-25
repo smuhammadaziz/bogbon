@@ -21,7 +21,7 @@ function Home() {
         <News />
         <Statistics />
         <Latest />
-        <About />
+        {/* <About /> */}
       </section>
 
       <footer>

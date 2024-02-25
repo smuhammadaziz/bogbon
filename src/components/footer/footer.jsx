@@ -21,31 +21,30 @@ function Footer() {
               <img src={logoImg} alt='bogbon main logo' />
             </NavLink>
             <p>
-              Lorem ipsum, dolor sit amet <span>consectetur</span> adipisicing elit. Dolor
-              minus provident cum quae. Non. <span>Lorem</span> ipsum dolor sit amet
-              consectetur adipisicing elit.
+              Садақанинг афзали мусулмон кишининг <span>илм</span> ўрганиб, сўнг бошқа{' '}
+              мусулмон <span>биродарларига</span> ҳам ўргатишидир.
             </p>
           </div>
           <div className='footer__top__links'>
             <ul>
               <li className='footer__top__links__item'>
                 <NavLink className='footer__top__links__item' to='/'>
-                  About us
+                  Biz haqimizda
                 </NavLink>
               </li>
               <li className='footer__top__links__item'>
                 <NavLink className='footer__top__links__item' to='/'>
-                  Education
+                  Yangiliklar
                 </NavLink>
               </li>
               <li className='footer__top__links__item'>
                 <NavLink className='footer__top__links__item' to='/'>
-                  Research
+                  Hodisalar
                 </NavLink>
               </li>
               <li className='footer__top__links__item'>
                 <NavLink className='footer__top__links__item' to='/'>
-                  Community
+                  Hamkorlik
                 </NavLink>
               </li>
             </ul>

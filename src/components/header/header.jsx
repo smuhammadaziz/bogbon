@@ -45,22 +45,22 @@ function Header() {
               <ul className='header__bottom__nav__list'>
                 <li className='header__bottom__nav__list__item'>
                   <NavLink to='/' className='header__bottom__nav__list__item__link'>
-                    Education
+                    Ta'lim
                   </NavLink>
                 </li>
                 <li className='header__bottom__nav__list__item'>
                   <NavLink to='/' className='header__bottom__nav__list__item__link'>
-                    Research
+                    Loyihalar
                   </NavLink>
                 </li>
                 <li className='header__bottom__nav__list__item'>
                   <NavLink to='/' className='header__bottom__nav__list__item__link'>
-                    Community
+                    Jamoalar
                   </NavLink>
                 </li>
                 <li className='header__bottom__nav__list__item header__bottom__nav__list__item__nested'>
                   <p className='header__bottom__nav__list__item__link header__bottom__nestedlink__text'>
-                    More{' '}
+                    Ko'proq{' '}
                     <img
                       src={downArrowImg}
                       alt='down arrow icon in bogbon website'
@@ -71,17 +71,17 @@ function Header() {
                   <ul className='header__bottom__nested_list'>
                     <li className='header__bottom__nested_list__item'>
                       <NavLink to='/' className='header__bottom__nested_list__item__link'>
-                        About us
+                        About
                       </NavLink>
                     </li>
                     <li className='header__bottom__nested_list__item'>
                       <NavLink to='/' className='header__bottom__nested_list__item__link'>
-                        Events
+                        News
                       </NavLink>
                     </li>
                     <li className='header__bottom__nested_list__item'>
                       <NavLink to='/' className='header__bottom__nested_list__item__link'>
-                        Career
+                        Media
                       </NavLink>
                     </li>
                   </ul>
@@ -91,10 +91,10 @@ function Header() {
 
             <div className='header_bottom__box'>
               <button type='button' className='header_bottom__access'>
-                <p>Accessibility</p>
+                <p>Foydalanish</p>
                 <img src={accessImg} alt='search icon' width='22' height='22' />
               </button>
-              <p className='header_bottom__changelang'>Uzbek</p>
+              <p className='header_bottom__changelang'>English</p>
               <button type='button' className='header_bottom__search'>
                 <img src={searchImg} alt='search icon' width='30' height='30' />
               </button>
