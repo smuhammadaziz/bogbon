@@ -13,8 +13,8 @@ import { NavLink } from 'react-router-dom';
 function News() {
   return (
     <div className='news'>
+      <h2 className='news__heading'>Yangiliklar</h2>
       <div className='container'>
-        <h2>Latest events</h2>
         <div className='news__card'>
           <div className='news__card__card'>
             <img src={news1img} alt='news card image' width='500' />

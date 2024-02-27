@@ -22,10 +22,20 @@ function Intro() {
     <div className='intro'>
       <div className='container'>
         <div className='intro_box1'>
-          <h2>
+          {/* <h2>
             Sadaqaning afzali musulmon kishining <span>ilm</span> o‘rganib, so‘ng boshqa{' '}
             musulmon <span>birodarlariga</span> ham o‘rgatishidir.
+          </h2> */}
+          <h2>
+            Sayyoramizning ertangi kuni, farovonligi farzandlarimiz qanday{' '}
+            <span>inson</span> bo'lib kamolga yetishi bilan bog'liq. Bizning asosiy
+            vazifamiz - yoshlarning o'z salohiyatini namoyon qilishi uchun{' '}
+            <span>zarur</span> sharoitlar yaratishdan iborat.
           </h2>
+          <h4>
+            O'zbekiston Respublikasi Prezidenti Shavkat Mirziyoyevning BMT Bosh
+            Assambleyasining 72-sessiyasida so'zlagan nutqidan
+          </h4>
         </div>
 
         <div className='intro_box2'>
@@ -33,11 +43,10 @@ function Intro() {
             loop={true}
             spaceBetween={30}
             autoplay={{
-              delay: 4500,
+              delay: 4000,
               disableOnInteraction: false,
             }}
             cssMode={true}
-            navigation={true}
             pagination={true}
             mousewheel={true}
             keyboard={true}
@@ -45,16 +54,16 @@ function Intro() {
             className='mySwiper'
           >
             <SwiperSlide>
-              <img src={Img3} alt='helping people image' width='650' height='380' />
+              <img src={Img3} alt='helping people image' width='800' height='480' />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Img2} alt='helping people image' width='650' height='380' />
+              <img src={Img2} alt='helping people image' width='800' height='480' />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Img1} alt='helping people image' width='650' height='380' />
+              <img src={Img1} alt='helping people image' width='800' height='480' />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Img4} alt='helping people image' width='650' height='380' />
+              <img src={Img4} alt='helping people image' width='800' height='480' />
             </SwiperSlide>
           </Swiper>
         </div>

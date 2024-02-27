@@ -4,6 +4,7 @@ import './stats.css';
 function Statistics() {
   return (
     <div className='stats'>
+      <h2 className='news__heading stats__heading'>Statistika</h2>
       <div className='container'>
         <div className='stats__box'>
           <div className='stats__box__card'>

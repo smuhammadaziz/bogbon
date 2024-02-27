@@ -1,8 +1,10 @@
 .header {
+  position: relative;
   padding: 0;
   font-family: DIN Next LT W01 Regular, -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial,
     sans-serif !important;
+  z-index: 1001 !important;
 }
 
 .header_top {
@@ -262,4 +264,13 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+.header_top__box1 p {
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  font-family: Rza, Rza-fallback, Georgia, serif;
+  margin-left: 115px;
+  font-weight: 500;
 }

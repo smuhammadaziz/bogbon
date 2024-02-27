@@ -1,12 +1,15 @@
 .aim {
   background-color: #f2f2f2;
   padding: 100px 0;
+  padding-top: 0;
 }
 
 .aim h2 {
   font-size: 45px;
   margin-bottom: 50px;
   font-family: Rza, Rza-fallback, Georgia, serif;
+  background-color: #d0edff;
+  padding: 20px 0;
 }
 
 .aim__box {

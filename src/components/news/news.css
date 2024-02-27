@@ -2,12 +2,6 @@
   margin: 100px 0;
 }
 
-h2 {
-  text-align: left;
-  margin-bottom: 20px;
-  font-size: 35px;
-}
-
 .news__card {
   display: flex;
   flex-wrap: wrap;
@@ -53,4 +47,13 @@ h2 {
 
 .news__card__card p {
   color: rgb(35, 35, 35);
+}
+
+.news__heading {
+  margin-bottom: 20px;
+  font-size: 35px;
+  text-align: center;
+  font-family: Rza, Rza-fallback, Georgia, serif;
+  background-color: #d0edff;
+  padding: 20px 0;
 }
