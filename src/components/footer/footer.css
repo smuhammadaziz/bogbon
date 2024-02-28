@@ -1,6 +1,6 @@
 .footer {
   background-color: #f2f2f2;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .footer__top {
@@ -21,6 +21,7 @@
   font-size: 30px;
   color: black;
   font-weight: bold;
+  margin: 0 120px;
 }
 
 .footer__top__logo p {
@@ -29,6 +30,9 @@
   margin-top: 20px;
   font-family: 'PFDINSerif-Regular', Georgia, Times New Roman, Times, serif !important;
   line-height: 27px;
+  /* text-align: center; */
+  font-weight: bold;
+  margin-left: 70px;
 }
 
 .footer__top__logo p span:first-child {
@@ -42,7 +46,7 @@
 .footer__bottom {
   display: block;
   padding: 20px 0;
-  background-color: #fff;
+  background-color: #faf7f0;
 }
 
 .footer__bottom .container {

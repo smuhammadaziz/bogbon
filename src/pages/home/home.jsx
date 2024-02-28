@@ -22,7 +22,7 @@ function Home() {
         <Aim />
         <News />
         <Statistics />
-        <Latest />
+        {/* <Latest /> */}
         {/* <About /> */}
       </section>
 

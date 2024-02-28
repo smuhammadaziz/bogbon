@@ -28,7 +28,9 @@ function Header() {
                 <img src={logoImg} alt='bogbon site logo' />
               </NavLink>
 
-              <p>Dunyoda ilmdan boshqa najot yo'q va bo'lmagay. (Imom Buxoriy)</p>
+              <p>
+                Dunyoda ilmdan boshqa najot yo'q va bo'lmagay <span>(Imom Buxoriy)</span>
+              </p>
             </div>
 
             <div className='header_top__box'>

@@ -27,15 +27,11 @@ function Intro() {
             musulmon <span>birodarlariga</span> ham o‘rgatishidir.
           </h2> */}
           <h2>
-            Sayyoramizning ertangi kuni, farovonligi farzandlarimiz qanday{' '}
-            <span>inson</span> bo'lib kamolga yetishi bilan bog'liq. Bizning asosiy
-            vazifamiz - yoshlarning o'z salohiyatini namoyon qilishi uchun{' '}
-            <span>zarur</span> sharoitlar yaratishdan iborat.
+            Sayyoramizning ertangi kuni, farovonligi farzandlarimiz qanday inson bo'lib
+            kamolga yetishi bilan bog'liq. Bizning asosiy vazifamiz - yoshlarning o'z
+            salohiyatini namoyon qilishi uchun zarur sharoitlar yaratishdan iborat.
           </h2>
-          <h4>
-            O'zbekiston Respublikasi Prezidenti Shavkat Mirziyoyevning BMT Bosh
-            Assambleyasining 72-sessiyasida so'zlagan nutqidan
-          </h4>
+          <h4>Shavkat Mirziyoyev</h4>
         </div>
 
         <div className='intro_box2'>
@@ -43,7 +39,7 @@ function Intro() {
             loop={true}
             spaceBetween={30}
             autoplay={{
-              delay: 4000,
+              delay: 3000,
               disableOnInteraction: false,
             }}
             cssMode={true}

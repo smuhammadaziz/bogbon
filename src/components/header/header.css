@@ -267,10 +267,15 @@
 }
 
 .header_top__box1 p {
-  font-size: 20px;
+  font-size: 29px;
   text-align: center;
   justify-content: center;
-  font-family: Rza, Rza-fallback, Georgia, serif;
-  margin-left: 115px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 50px;
   font-weight: 500;
+}
+
+.header_top__box1 p span {
+  font-size: 18px;
+  margin-left: 5px;
 }

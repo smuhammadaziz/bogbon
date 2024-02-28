@@ -15,10 +15,11 @@
 .aim__box {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: space-between;
 }
 
-.aim__box p {
+.aim__box span {
   /* width: 400px; */
   text-align: left;
   margin-left: 50px;
@@ -26,4 +27,5 @@
   color: rgba(0, 0, 0, 0.885);
   font-family: Rza, Rza-fallback, Georgia, serif;
   line-height: 40px;
+  margin-bottom: 30px;
 }
