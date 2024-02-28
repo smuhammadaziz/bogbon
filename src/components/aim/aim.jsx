@@ -9,7 +9,6 @@ function Aim() {
       <h2>Maqsad va vazifalari</h2>
       <div className='container'>
         <div className='aim__box'>
-          {/* <img src={aimImg} alt='aim image for bogbon' width='250' /> */}
           <span>
             <span> {'    '} Bu</span> loyiha orqali Mesenatlik faoliyatini rivojlantirish,
             ushbu dasturiy ta’minot orqali Mesenatlik faoliyatini ochiq va shaffof tizim
