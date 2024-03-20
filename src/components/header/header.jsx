@@ -45,24 +45,9 @@ function Header() {
           <div className='header_bottom'>
             <nav className='header_bottom__nav'>
               <ul className='header__bottom__nav__list'>
-                <li className='header__bottom__nav__list__item'>
-                  <NavLink to='/' className='header__bottom__nav__list__item__link'>
-                    Ta'lim
-                  </NavLink>
-                </li>
-                <li className='header__bottom__nav__list__item'>
-                  <NavLink to='/' className='header__bottom__nav__list__item__link'>
-                    Loyihalar
-                  </NavLink>
-                </li>
-                <li className='header__bottom__nav__list__item'>
-                  <NavLink to='/' className='header__bottom__nav__list__item__link'>
-                    Jamoalar
-                  </NavLink>
-                </li>
                 <li className='header__bottom__nav__list__item header__bottom__nav__list__item__nested'>
                   <p className='header__bottom__nav__list__item__link header__bottom__nestedlink__text'>
-                    Ko'proq{' '}
+                    Biz haqimizda{' '}
                     <img
                       src={downArrowImg}
                       alt='down arrow icon in bogbon website'
@@ -73,48 +58,193 @@ function Header() {
                   <ul className='header__bottom__nested_list'>
                     <li className='header__bottom__nested_list__item'>
                       <NavLink to='/' className='header__bottom__nested_list__item__link'>
-                        About
+                        Biz haqimizda
                       </NavLink>
                     </li>
                     <li className='header__bottom__nested_list__item'>
                       <NavLink to='/' className='header__bottom__nested_list__item__link'>
-                        News
+                        Maqsadimiz
                       </NavLink>
                     </li>
                     <li className='header__bottom__nested_list__item'>
                       <NavLink to='/' className='header__bottom__nested_list__item__link'>
-                        Media
+                        Bog'bon.edu.uz qanday ishlaydi
                       </NavLink>
                     </li>
                   </ul>
                 </li>
+                <li className='header__bottom__nav__list__item header__bottom__nav__list__item__nested'>
+                  <p className='header__bottom__nav__list__item__link header__bottom__nestedlink__text'>
+                    Loyihalar{' '}
+                    <img
+                      src={downArrowImg}
+                      alt='down arrow icon in bogbon website'
+                      width='20'
+                      height='20'
+                    />
+                  </p>
+                  <ul className='header__bottom__nested_list'>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Umumiy loyihalar
+                      </NavLink>
+                    </li>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        To'g'ridan-to'g'ri moliyalashtiriladigan loyihalar
+                      </NavLink>
+                    </li>
+                  </ul>
+                </li>
+                <li className='header__bottom__nav__list__item header__bottom__nav__list__item__nested'>
+                  <p className='header__bottom__nav__list__item__link header__bottom__nestedlink__text'>
+                    Jamoa{' '}
+                    <img
+                      src={downArrowImg}
+                      alt='down arrow icon in bogbon website'
+                      width='20'
+                      height='20'
+                    />
+                  </p>
+                  <ul className='header__bottom__nested_list'>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Bizning jamoa
+                      </NavLink>
+                    </li>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Maslahat kengashi
+                      </NavLink>
+                    </li>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Ekspertlar guruhi
+                      </NavLink>
+                    </li>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Volantyorlar
+                      </NavLink>
+                    </li>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Vakansiyalar
+                      </NavLink>
+                    </li>
+                  </ul>
+                </li>
+                <li className='header__bottom__nav__list__item header__bottom__nav__list__item__nested'>
+                  <p className='header__bottom__nav__list__item__link header__bottom__nestedlink__text'>
+                    Ma'lumotlar{' '}
+                    <img
+                      src={downArrowImg}
+                      alt='down arrow icon in bogbon website'
+                      width='20'
+                      height='20'
+                    />
+                  </p>
+                  <ul className='header__bottom__nested_list'>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Homiylar uchun
+                      </NavLink>
+                    </li>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Hamkorlar uchun
+                      </NavLink>
+                    </li>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Nomzod yoshlar uchun
+                      </NavLink>
+                    </li>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Volantiyorlar uchun
+                      </NavLink>
+                    </li>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Ariza berish qoidalari va talablari
+                      </NavLink>
+                    </li>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Ko'p beriladigan savollar
+                      </NavLink>
+                    </li>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Ochiq hisobot statistika
+                      </NavLink>
+                    </li>
+                  </ul>
+                </li>
+                <li className='header__bottom__nav__list__item header__bottom__nav__list__item__nested'>
+                  <p className='header__bottom__nav__list__item__link header__bottom__nestedlink__text'>
+                    Yangiliklar{' '}
+                    <img
+                      src={downArrowImg}
+                      alt='down arrow icon in bogbon website'
+                      width='20'
+                      height='20'
+                    />
+                  </p>
+                  <ul className='header__bottom__nested_list'>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Barcha yangiliklar
+                      </NavLink>
+                    </li>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Fotogalareya
+                      </NavLink>
+                    </li>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Videogalareya
+                      </NavLink>
+                    </li>
+                  </ul>
+                </li>
+                <li className='header__bottom__nav__list__item header__bottom__nav__list__item__nested'>
+                  <p className='header__bottom__nav__list__item__link header__bottom__nestedlink__text'>
+                    Tizimga kirish{' '}
+                    <img
+                      src={downArrowImg}
+                      alt='down arrow icon in bogbon website'
+                      width='20'
+                      height='20'
+                    />
+                  </p>
+                  <ul className='header__bottom__nested_list'>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Ro'yhat o'tish
+                      </NavLink>
+                    </li>
+                    <li className='header__bottom__nested_list__item'>
+                      <NavLink to='/' className='header__bottom__nested_list__item__link'>
+                        Mening profilim
+                      </NavLink>
+                    </li>
+                  </ul>
+                </li>
+
+                <li className='header__bottom__nav__list__item'>
+                  <NavLink to='/' className='header__bottom__nav__list__item__link'>
+                    Bog'lanish
+                  </NavLink>
+                </li>
               </ul>
             </nav>
-
             <div className='header_bottom__box'>
-              <button type='button' className='header_bottom__access'>
-                <p>Foydalanish</p>
-                <img src={accessImg} alt='search icon' width='22' height='22' />
-              </button>
               <p className='header_bottom__changelang'>English</p>
-              <button type='button' className='header_bottom__search'>
-                <img src={searchImg} alt='search icon' width='30' height='30' />
-              </button>
             </div>
           </div>
-        </div>
-      </div>
-      <div className='search'>
-        <div className='container'>
-          <button className='search__box' type='button'>
-            <img
-              src={calcelImg}
-              alt='cancel icon bogbon website'
-              width='30'
-              height='30'
-            />
-          </button>
-          <input type='text' placeholder='Search...' className='search__input' />
         </div>
       </div>
     </>

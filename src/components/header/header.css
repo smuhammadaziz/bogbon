@@ -193,7 +193,7 @@
   padding: 10px;
   background-color: #dcdcdc;
   border: 1px solid black;
-  transform: translateX(-100%);
+  transform: translateX(-150%);
   left: 220%;
   transition: all 0.2s ease;
 }
