@@ -223,7 +223,7 @@ function Header() {
                   <ul className='header__bottom__nested_list'>
                     <li className='header__bottom__nested_list__item'>
                       <NavLink to='/' className='header__bottom__nested_list__item__link'>
-                        Ro'yhat o'tish
+                        Ro'yhatdan o'tish
                       </NavLink>
                     </li>
                     <li className='header__bottom__nested_list__item'>

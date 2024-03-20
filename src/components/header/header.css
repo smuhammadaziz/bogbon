@@ -184,7 +184,7 @@
 }
 
 .header__bottom__nested_list {
-  width: 130px;
+  width: 300px;
   position: absolute;
   display: none;
   flex-direction: column;
@@ -193,7 +193,7 @@
   padding: 10px;
   background-color: #dcdcdc;
   border: 1px solid black;
-  transform: translateX(-150%);
+  transform: translateX(-90%);
   left: 220%;
   transition: all 0.2s ease;
 }
